@@ -11,9 +11,9 @@ import (
 
 func main() {
 
-	project := "travel-prod-76683"
+	project := "[PROJECT_ID]"
 	zone := []string{"asia-southeast1-a", "asia-southeast1-b", "asia-southeast1-c"}
-	instance := []string{"travel-order-postgres-01", "travel-order-postgres-02"}
+	instance := []string{"[INSTANCE_NAME_A]", "[INSTANCE_NAME_B]"}
 	var labels []string
 
 	ctx := context.Background()
