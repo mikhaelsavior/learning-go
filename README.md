@@ -1,2 +1,2 @@
 # learning-go
-Learning Go and GCP
+- Scripting to adding label to specific GCE in GCP 
